@@ -1,0 +1,22 @@
+.animation {
+}
+
+.cardGlow:hover {
+}
+@keyframes glowing {
+  0% {
+    background-color: #5287fa;
+    box-shadow: 0 0 10px #05325c;
+  }
+  50% {
+    background-color: #1f6fe7;
+    box-shadow: 0 0 20px #081a68;
+  }
+  100% {
+    background-color: #2d7ad3;
+    box-shadow: 0 0 10px #1a41c0;
+  }
+}
+.cardGlow:hover {
+  animation: glowing 1300ms infinite;
+}
