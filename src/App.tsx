@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Particles from "./components/Particles.js";
 import card1 from "./imgs/1.jpg";
@@ -9,7 +9,6 @@ import card5 from "./imgs/5.jpg";
 import card6 from "./imgs/6.jpg";
 import card7 from "./imgs/7.jpg";
 import card8 from "./imgs/8.jpg";
-import cardback from "./imgs/cardback.jpg";
 import cardbackp from "./imgs/cardback.png";
 
 type Card = {
